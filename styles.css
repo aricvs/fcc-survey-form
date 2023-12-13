@@ -2,4 +2,15 @@ body {
   font-family: sans-serif;
   background-image: url(/images/bg.jpg);
   color: white;
+  margin: 0;
+  padding: 2rem 10rem;
+}
+
+#title {
+  text-align: center;
+  margin-top: 0;
+}
+
+#survey-form {
+  background-color: rgb(20, 20, 150, 50%);
 }
