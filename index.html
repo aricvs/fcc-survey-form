@@ -10,9 +10,23 @@
     <h1 id="title">Help us improve!</h1>
     <p id="description">Thank you for taking the time in giving us feedback!</p>
     <form id="survey-form" action="">
-      <input id="name" type="text" required />
-      <input id="email" type="email" required />
-      <input id="number" type="number" />
+      <label id="name-label" for="name"
+        >Full name<input
+          id="name"
+          type="text"
+          placeholder="Name Surname"
+          required
+      /></label>
+      <label id="email-label" for="email"
+        >Email<input
+          id="email"
+          type="email"
+          placeholder="email@domain.xyz"
+          required
+      /></label>
+      <label id="number-label" for="number"
+        >Age (optional)<input id="number" type="number" min="5" max="120"
+      /></label>
     </form>
   </body>
 </html>
