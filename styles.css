@@ -6,11 +6,23 @@ body {
   padding: 2rem 10rem;
 }
 
-#title {
+#title,
+#description {
   text-align: center;
   margin-top: 0;
 }
 
 #survey-form {
   background-color: rgb(20, 20, 150, 50%);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+  display: block;
+}
+
+#submit {
+  display: block;
 }
